@@ -1,0 +1,16 @@
+<h1>Events</h1>
+
+<input type="text" [formControl]="searchForm" placeholder="Search">
+
+<select (change)="filterByStatus($event)" [value]="" multiple>
+  <option [selected]="isSelected('draft')" value="draft">draft</option>
+  <option [selected]="isSelected('published')" value="published">published</option>
+  <option [selected]="isSelected('archived')" value="archived">archived</option>
+</select>
+
+<div class="grid">
+  @for (event of store.filtered(); track event.id) {
+      <app-event-item [event]="event"></app-event-item>
+  }
+</div>
+

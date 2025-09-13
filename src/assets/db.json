@@ -1,0 +1,182 @@
+[
+  {
+    "id": 1,
+    "title": "Angular Meetup #1",
+    "status": "published",
+    "dateStart": "2025-01-20T19:00:00",
+    "price": 0,
+    "capacity": 120,
+    "tags": [
+      "angular",
+      "frontend",
+      "rxjs"
+    ],
+    "owner": {
+      "id": 1,
+      "name": "Ирина Кузнецова"
+    },
+    "createdAt": "2024-12-15T10:00:00"
+  },
+  {
+    "id": 2,
+    "title": "RxJS Intensive #2",
+    "status": "draft",
+    "dateStart": "2025-02-05T14:30:00",
+    "price": 1500,
+    "capacity": 80,
+    "tags": [
+      "rxjs",
+      "typescript",
+      "web"
+    ],
+    "owner": {
+      "id": 2,
+      "name": "Алексей Петров"
+    },
+    "createdAt": "2024-12-28T09:20:00"
+  },
+  {
+    "id": 3,
+    "title": "Web Performance Lab #3",
+    "status": "published",
+    "dateStart": "2025-02-18T10:00:00",
+    "price": 0,
+    "capacity": 200,
+    "tags": [
+      "performance",
+      "web",
+      "frontend"
+    ],
+    "owner": {
+      "id": 3,
+      "name": "Мария Орлова"
+    },
+    "createdAt": "2024-12-10T08:55:00"
+  },
+  {
+    "id": 4,
+    "title": "Signals Deep Dive #4",
+    "status": "published",
+    "dateStart": "2025-03-02T19:00:00",
+    "price": 2500,
+    "capacity": 50,
+    "tags": [
+      "signals",
+      "angular",
+      "typescript"
+    ],
+    "owner": {
+      "id": 4,
+      "name": "Сергей Иванов"
+    },
+    "createdAt": "2025-01-10T11:20:00"
+  },
+  {
+    "id": 5,
+    "title": "TypeScript Workshop #5",
+    "status": "archived",
+    "dateStart": "2025-01-12T10:00:00",
+    "price": 990,
+    "capacity": 80,
+    "tags": [
+      "typescript",
+      "frontend"
+    ],
+    "owner": {
+      "id": 5,
+      "name": "Елена Смирнова"
+    },
+    "createdAt": "2024-11-20T14:00:00"
+  },
+  {
+    "id": 6,
+    "title": "Frontend Architecture Talk #6",
+    "status": "published",
+    "dateStart": "2025-03-15T14:00:00",
+    "price": 0,
+    "capacity": 120,
+    "tags": [
+      "architecture",
+      "frontend",
+      "design"
+    ],
+    "owner": {
+      "id": 6,
+      "name": "Дмитрий Волков"
+    },
+    "createdAt": "2025-01-30T12:20:00"
+  },
+  {
+    "id": 7,
+    "title": "GraphQL for Angular #7",
+    "status": "draft",
+    "dateStart": "2025-03-28T10:30:00",
+    "price": 3900,
+    "capacity": 30,
+    "tags": [
+      "graphql",
+      "angular",
+      "web"
+    ],
+    "owner": {
+      "id": 1,
+      "name": "Ирина Кузнецова"
+    },
+    "createdAt": "2025-02-10T09:00:00"
+  },
+  {
+    "id": 8,
+    "title": "NgRx in Practice #8",
+    "status": "published",
+    "dateStart": "2025-04-08T19:00:00",
+    "price": 1500,
+    "capacity": 80,
+    "tags": [
+      "ngrx",
+      "angular",
+      "rxjs"
+    ],
+    "owner": {
+      "id": 2,
+      "name": "Алексей Петров"
+    },
+    "createdAt": "2025-02-22T17:40:00"
+  },
+  {
+    "id": 9,
+    "title": "Design Systems #9",
+    "status": "published",
+    "dateStart": "2025-04-20T19:00:00",
+    "price": 0,
+    "capacity": 200,
+    "tags": [
+      "design",
+      "frontend",
+      "web"
+    ],
+    "owner": {
+      "id": 3,
+      "name": "Мария Орлова"
+    },
+    "createdAt": "2025-03-01T10:00:00"
+  },
+  {
+    "id": 10,
+    "title": "Node for Frontend #10",
+    "status": "archived",
+    "dateStart": "2025-02-01T10:00:00",
+    "price": 500,
+    "capacity": 100,
+    "tags": [
+      "node",
+      "web",
+      "frontend"
+    ],
+    "owner": {
+      "id": 4,
+      "name": "Сергей Иванов"
+    },
+    "createdAt": "2024-12-01T13:40:00"
+  }
+]
+

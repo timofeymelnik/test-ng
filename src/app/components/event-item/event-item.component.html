@@ -1,0 +1,19 @@
+<!--Название, Дата/время, Статус (draft/published/archived), Цена, Организатор, Теги.-->
+
+<div>
+  <h2>{{ event().title }}</h2>
+  <p>{{ event().dateStart}}</p>
+  <p>{{ event().status }}</p>
+  <p>{{event().price}}</p>
+
+  <p>{{ event().owner.name }}</p>
+
+  @for (tag of event().tags; track event().id) {
+    <span>{{ tag }}</span>
+  }
+
+  <div class="cta">
+    <button (click)="toggleFav(event().id)">{{ !isFav ? 'add to' : 'remove from' }} favorites</button>
+  </div>
+
+</div>

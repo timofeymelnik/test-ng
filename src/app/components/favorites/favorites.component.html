@@ -1,0 +1,5 @@
+<div class="grid">
+  @for (event of store.getFavorites()(); track event.id) {
+    <app-event-item [event]="event"></app-event-item>
+  }
+</div>
